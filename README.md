@@ -2,28 +2,29 @@
 
 > A futuristic VALORANT companion desktop UI prototype built with Tauri, React, and TypeScript.
 
-Vexryn is a desktop application prototype inspired by VALORANT companion and tracker applications.
+Vexryn is a Windows desktop application prototype inspired by VALORANT companion and tracker applications.
 
-The project started as an attempt to build a modern Windows-based companion experience with a focus on a clean HUD-style interface, player information, match data, and statistics.
+The project was created with the idea of building a modern desktop companion experience focused on player information, match data, statistics, and a clean futuristic HUD-style interface.
 
 > **Project Status:** Archived / Prototype  
-> This repository contains the frontend and desktop application prototype. Riot Games API integration and some planned functionality are not currently implemented.
+> Vexryn is currently a UI and desktop application prototype. Some planned functionality and external service integrations are not implemented.
 
 ---
 
 ## ✨ Features
 
 - 🎮 VALORANT-inspired desktop interface
-- 🖥️ Windows desktop application using Tauri
+- 🖥️ Windows desktop application
 - ⚡ React + TypeScript frontend
+- 🦀 Tauri + Rust backend
 - 🎨 Futuristic dark HUD-style UI
-- 📊 Dashboard layout for player and match information
-- 🏆 Rank and agent visualization
+- 📊 Dashboard interface
+- 🏆 Rank visualization
+- 🎭 Agent visualization
 - 📜 Match History interface
 - 📈 Statistics interface
 - ⚙️ Settings interface
-- 🧩 Rust backend through Tauri
-- 🔧 Modular frontend structure
+- 🧩 Modular application structure
 
 ---
 
@@ -68,29 +69,38 @@ Vexryn/
 ├── pnpm-lock.yaml
 ├── pnpm-workspace.yaml
 └── README.md
-
-🚀 Running Locally
+```
+🚀 Getting Started
 Prerequisites
 Make sure you have the following installed:
 - Node.js
 - pnpm
 - Rust
 - Tauri prerequisites for Windows
-Clone the repository:
+Clone the repository
+```bash
 git clone https://github.com/aaryush-exe/Vexryn.git
 cd Vexryn
+```
 
-Install dependencies:
+Install dependencies
+```bash
 pnpm install
+```
 
-Run the Tauri desktop application:
+Run the desktop application
+```bash
 pnpm tauri dev
+```
 
-To run only the frontend development server:
+Run the frontend only
+```bash
 pnpm dev
+```
 
 🎯 Project Goals
-The original goal of Vexryn was to create a lightweight desktop companion for VALORANT with features such as:
+The original goal of Vexryn was to experiment with building a lightweight desktop companion for VALORANT.
+Planned functionality included:
 - Riot Client detection
 - VALORANT process detection
 - Agent Select detection
@@ -100,51 +110,46 @@ The original goal of Vexryn was to create a lightweight desktop companion for VA
 - Player statistics
 - Party information
 - A dedicated futuristic desktop interface
-The project evolved primarily around the UI/UX and desktop application prototype.
-⚠️ Current Limitations
-Vexryn is currently a prototype and should not be considered a finished VALORANT tracker.
-Some planned functionality depends on external game data and Riot Games services. Those integrations are not currently included in this repository.
-The project is therefore maintained primarily as a UI/desktop application prototype and learning project.
-🔒 Privacy & Security
-Do not add:
+The project primarily evolved around the UI/UX and desktop application prototype.
+
+⚠️ Current Status
+Vexryn is currently an archived prototype rather than a finished VALORANT tracker.
+Some planned functionality depends on external game data and Riot Games services. Those integrations are not currently included as a complete production-ready system.
+The repository is kept public as a demonstration of the UI, architecture, and development work behind the project.
+
+🔒 Security
+Do not commit:
 - Riot API keys
 - Access tokens
 - .env files containing secrets
 - Personal credentials
 - Generated build artifacts
-The repository intentionally excludes generated directories such as:
-node_modules/
-dist/
-.vite/
-src-tauri/target/
+The repository excludes generated directories such as:
+- node_modules/
+- dist/
+- .vite/
+- src-tauri/target/
 
-📌 Project Status
-Archived Prototype
-Development of the original concept has been paused due to changes around the external services and requirements involved in building a Riot/VALORANT companion application.
-The repository remains available as a demonstration of the application's UI, architecture, and development process.
-👨‍💻 Author
-Aaryush Raj
-Built as a personal project while learning desktop application development with:
-- React
+📌 Why Vexryn?
+Vexryn was created as an experiment in building a modern Windows desktop companion experience for VALORANT.
+The project provided hands-on experience with:
+- React application development
 - TypeScript
 - Tauri
 - Rust
+- Desktop application architecture
+- UI/UX design
+- Git and GitHub
+- Windows development
+
+👨‍💻 Author
+Aaryush Raj - B. Tech CSE (2ⁿᵈ Year)
+Built as a personal project while exploring desktop application development with React, TypeScript, Tauri, and Rust.
+
 ⚖️ Disclaimer
-Vexryn is an independent fan-made project and is not affiliated with or endorsed by Riot Games.
+Vexryn is an independent fan-made project and is not affiliated with, endorsed by, or sponsored by Riot Games.
 VALORANT and Riot Games are trademarks of Riot Games, Inc.
 This project does not distribute or modify VALORANT game files.
 ⭐ About
 Vexryn started as an experiment in building a modern desktop companion experience for VALORANT and evolved into a UI/desktop application prototype.
-The project is kept public as a record of the work and as part of the author's development portfolio.
-
-### One small recommendation
-
-I'd **not** put things like:
-
-> "Fully functional VALORANT tracker"  
-> "Real-time Riot API integration"  
-> "Works with Riot Client"
-
-in the README unless those things actually work in the current repository.
-
-For a portfolio project, being transparent that it's an **archived prototype** actually makes the repo look more credible rather than trying to oversell it.
+The project is kept public as a record of the development process and as part of the author's portfolio.
