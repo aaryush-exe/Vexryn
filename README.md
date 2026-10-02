@@ -144,6 +144,7 @@ The project provided hands-on experience with:
 
 👨‍💻 Author
 Aaryush Raj - B. Tech CSE (2ⁿᵈ Year)
+
 Built as a personal project while exploring desktop application development with React, TypeScript, Tauri, and Rust.
 
 ⚖️ Disclaimer
