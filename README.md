@@ -71,7 +71,9 @@ Vexryn/
 └── README.md
 ```
 🚀 Getting Started
+
 Prerequisites
+
 Make sure you have the following installed:
 - Node.js
 - pnpm
@@ -99,6 +101,7 @@ pnpm dev
 ```
 
 🎯 Project Goals
+
 The original goal of Vexryn was to experiment with building a lightweight desktop companion for VALORANT.
 Planned functionality included:
 - Riot Client detection
@@ -113,11 +116,13 @@ Planned functionality included:
 The project primarily evolved around the UI/UX and desktop application prototype.
 
 ⚠️ Current Status
+
 Vexryn is currently an archived prototype rather than a finished VALORANT tracker.
 Some planned functionality depends on external game data and Riot Games services. Those integrations are not currently included as a complete production-ready system.
 The repository is kept public as a demonstration of the UI, architecture, and development work behind the project.
 
 🔒 Security
+
 Do not commit:
 - Riot API keys
 - Access tokens
@@ -131,6 +136,7 @@ The repository excludes generated directories such as:
 - src-tauri/target/
 
 📌 Why Vexryn?
+
 Vexryn was created as an experiment in building a modern Windows desktop companion experience for VALORANT.
 The project provided hands-on experience with:
 - React application development
@@ -148,6 +154,7 @@ Aaryush Raj - B. Tech CSE (2ⁿᵈ Year)
 Built as a personal project while exploring desktop application development with React, TypeScript, Tauri, and Rust.
 
 ⚖️ Disclaimer
+
 Vexryn is an independent fan-made project and is not affiliated with, endorsed by, or sponsored by Riot Games.
 VALORANT and Riot Games are trademarks of Riot Games, Inc.
 This project does not distribute or modify VALORANT game files.
